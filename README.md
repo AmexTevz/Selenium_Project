@@ -2,6 +2,7 @@ The program runs from script.py
 
 It returns results from eBay.
 
+Insert the path to chromedriver in baseclass.py
 Insert the path to your preferred directory where you want 
 CSV file to be created. (csv_file_path)
 

@@ -10,7 +10,7 @@ class Base:
     chrome_options.add_argument('headless')
     chrome_options.add_argument('--disable-gpu')
 
-    chrome_path = Service('/Users/amirantevzadze/Documents/development/chromedriver')
+    chrome_path = Service('/PATH/TO/YOUR/CHROMEDRIVER')
 
     driver = webdriver.Chrome(service=chrome_path, options=chrome_options)
     driver.implicitly_wait(20)

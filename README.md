@@ -2,10 +2,11 @@ The program runs from script.py
 
 It returns results from eBay.
 
-Insert the path to chromedriver in baseclass.py
+Insert the path to chromedriver in baseclass.py (chrome_path).
+https://chromedriver.chromium.org/downloads
 
 Insert the path to your preferred directory where you want 
-CSV file to be created. (csv_file_path)
+CSV file to be created (csv_file_path).
 
 1) It will ask what to search for.
 2) It will ask how many posting to include.

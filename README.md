@@ -9,7 +9,7 @@ CSV file to be created. (csv_file_path)
 The program will only include "Buy It Now" options.
 The program will skip any posting where the price is in range.
 
-Example price $100 to $200.
+(Example of skipped posting - price $100 to $200)
 
 Any conditions can be removed or changed for different results.
 

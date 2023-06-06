@@ -23,9 +23,9 @@ while True:
         break
 
 filename = input('CSV File Name? :')
-csv_file_path = f'/Users/amirantevzadze/Desktop/{filename}.csv'
+csv_file_path = f'/PATH/TO/YOUR/DIRECTORY/{filename}.csv' # INSERT THE PATH WHERE YOU WANT THE FILE TO BE CREATED.
 
-if filename != '':  # Will skip the csv creation if left blank.
+if filename != '':  # WILL SKIP THE CSV FILE CREATION IF LEFT BLANK.
     num = 1
     with open(csv_file_path, 'w') as file:
         writer = csv.writer(file)

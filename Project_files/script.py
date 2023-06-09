@@ -32,7 +32,7 @@ if filename != '':  # WILL SKIP THE CSV FILE CREATION IF LEFT BLANK.
         writer.writerow(['Id', 'Name', 'Price', 'Link'])
         for i in combined_info:
             listed = list(i)
-            row_result = [num, listed[0],float(listed[1]),listed[2]]
+            row_result = [num, listed[0],listed[1],listed[2]]
             writer.writerow(row_result)
             num += 1
         print('CSV File Created')
